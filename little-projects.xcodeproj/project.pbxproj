@@ -13,8 +13,6 @@
 		0DE0997C2A27259700C92206 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0997B2A27259700C92206 /* Preview Assets.xcassets */; };
 		0DE099862A2726F600C92206 /* MyProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE099852A2726F600C92206 /* MyProgressView.swift */; };
 		0DE099882A27723E00C92206 /* MyAppProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE099872A27723E00C92206 /* MyAppProgress.swift */; };
-		0DE0998C2A2787D300C92206 /* giftProgressView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0998B2A2787D300C92206 /* giftProgressView.gif */; };
-		0DE0998F2A278D4B00C92206 /* giftProgressView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0998E2A278D4B00C92206 /* giftProgressView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +23,6 @@
 		0DE0997B2A27259700C92206 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DE099852A2726F600C92206 /* MyProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgressView.swift; sourceTree = "<group>"; };
 		0DE099872A27723E00C92206 /* MyAppProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppProgress.swift; sourceTree = "<group>"; };
-		0DE0998B2A2787D300C92206 /* giftProgressView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giftProgressView.gif; path = ../../../../../../Downloads/giftProgressView.gif; sourceTree = "<group>"; };
-		0DE0998E2A278D4B00C92206 /* giftProgressView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giftProgressView.gif; path = ../../../../../../Downloads/giftProgressView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +55,6 @@
 		0DE099732A27259700C92206 /* little-projects */ = {
 			isa = PBXGroup;
 			children = (
-				0DE0998D2A278D3A00C92206 /* New Group */,
-				0DE0998A2A2787B800C92206 /* Imagenes */,
 				0DE099822A2725BC00C92206 /* progressBar */,
 				0DE099742A27259700C92206 /* little_projectsApp.swift */,
 				0DE099762A27259700C92206 /* ContentView.swift */,
@@ -85,22 +79,6 @@
 				0DE099872A27723E00C92206 /* MyAppProgress.swift */,
 			);
 			path = progressBar;
-			sourceTree = "<group>";
-		};
-		0DE0998A2A2787B800C92206 /* Imagenes */ = {
-			isa = PBXGroup;
-			children = (
-				0DE0998B2A2787D300C92206 /* giftProgressView.gif */,
-			);
-			path = Imagenes;
-			sourceTree = "<group>";
-		};
-		0DE0998D2A278D3A00C92206 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				0DE0998E2A278D4B00C92206 /* giftProgressView.gif */,
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,8 +141,6 @@
 			files = (
 				0DE0997C2A27259700C92206 /* Preview Assets.xcassets in Resources */,
 				0DE099792A27259700C92206 /* Assets.xcassets in Resources */,
-				0DE0998F2A278D4B00C92206 /* giftProgressView.gif in Resources */,
-				0DE0998C2A2787D300C92206 /* giftProgressView.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

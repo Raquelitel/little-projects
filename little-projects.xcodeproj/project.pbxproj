@@ -24,7 +24,6 @@
 		0DE0997B2A27259700C92206 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DE099852A2726F600C92206 /* MyProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgressView.swift; sourceTree = "<group>"; };
 		0DE099872A27723E00C92206 /* MyAppProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppProgress.swift; sourceTree = "<group>"; };
-		0DE099892A2787AB00C92206 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0DE0998B2A2787D300C92206 /* giftProgressView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giftProgressView.gif; path = ../../../../../../Downloads/giftProgressView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +63,6 @@
 				0DE099762A27259700C92206 /* ContentView.swift */,
 				0DE099782A27259700C92206 /* Assets.xcassets */,
 				0DE0997A2A27259700C92206 /* Preview Content */,
-				0DE099892A2787AB00C92206 /* README.md */,
 			);
 			path = "little-projects";
 			sourceTree = "<group>";

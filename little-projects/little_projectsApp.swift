@@ -11,7 +11,7 @@ import SwiftUI
 struct little_projectsApp: App {
     var body: some Scene {
         WindowGroup {
-            ApiDataListView()
+            AddImageView()
         }
     }
 }

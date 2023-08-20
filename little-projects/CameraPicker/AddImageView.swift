@@ -15,12 +15,13 @@ struct AddImageView: View {
     @State private var source: UIImagePickerController.SourceType = .camera
     
     var body: some View {
-        NavigationView{
+        NavigationStack{
             VStack{
-                NavigationLink(destination: ImagePicker(show: $imagePicker, image: $imageData, source: source), isActive: $imagePicker){
-                    EmptyView()
-                }.toolbar(.hidden)
-                
+                Text("")
+                    .navigationDestination(isPresented: $imagePicker){
+                        ImagePicker(show: self.$imagePicker, image: self.$imageData, source: self.source)
+                    }.toolbar(.hidden)
+
                 Button(action:{
                     mostrarMenu.toggle()
                 }){

@@ -18,4 +18,6 @@ Mostrar datos traídos de la API Simpsons con un Navigation para ir entre pantal
 
 
 ### Camera and Library Access
+Acceso a la caámara y a la Galería de imágenes para subir una foto.
+Administrados los permisos necesarios
 ![](https://github.com/Raquelitel/little-projects/blob/main/little-projects/Imagenes/cameraAndLibraryAccess.gif)

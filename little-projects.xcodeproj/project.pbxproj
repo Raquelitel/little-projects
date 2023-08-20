@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D790ACC2A8FA94F0001B4B9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D790ACB2A8FA94F0001B4B9 /* ImagePicker.swift */; };
+		0D790ACE2A8FACE60001B4B9 /* AddImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D790ACD2A8FACE60001B4B9 /* AddImageView.swift */; };
 		0D8FEFB12A2F50F900F14991 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8FEFB02A2F50F900F14991 /* CharacterView.swift */; };
 		0DE099752A27259700C92206 /* little_projectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE099742A27259700C92206 /* little_projectsApp.swift */; };
 		0DE099772A27259700C92206 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE099762A27259700C92206 /* ContentView.swift */; };
@@ -20,7 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D790ACB2A8FA94F0001B4B9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0D790ACD2A8FACE60001B4B9 /* AddImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageView.swift; sourceTree = "<group>"; };
 		0D8FEFB02A2F50F900F14991 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		0DB7D52C2A925647008AB05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0DE099712A27259700C92206 /* little-projects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "little-projects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE099742A27259700C92206 /* little_projectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = little_projectsApp.swift; sourceTree = "<group>"; };
 		0DE099762A27259700C92206 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D790AC82A8FA84C0001B4B9 /* CameraPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0D790ACB2A8FA94F0001B4B9 /* ImagePicker.swift */,
+				0D790ACD2A8FACE60001B4B9 /* AddImageView.swift */,
+			);
+			path = CameraPicker;
+			sourceTree = "<group>";
+		};
 		0DE099682A27259700C92206 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +77,8 @@
 		0DE099732A27259700C92206 /* little-projects */ = {
 			isa = PBXGroup;
 			children = (
+				0DB7D52C2A925647008AB05E /* Info.plist */,
+				0D790AC82A8FA84C0001B4B9 /* CameraPicker */,
 				0DE099902A279EC700C92206 /* call-api */,
 				0DE099822A2725BC00C92206 /* progressBar */,
 				0DE099742A27259700C92206 /* little_projectsApp.swift */,
@@ -174,10 +190,12 @@
 				0DE099862A2726F600C92206 /* MyProgressView.swift in Sources */,
 				0DE099962A27A67700C92206 /* ApiDataListView.swift in Sources */,
 				0DE099772A27259700C92206 /* ContentView.swift in Sources */,
+				0D790ACC2A8FA94F0001B4B9 /* ImagePicker.swift in Sources */,
 				0DE099882A27723E00C92206 /* MyAppProgress.swift in Sources */,
 				0DE099942A27A22E00C92206 /* getDataApi.swift in Sources */,
 				0DE099922A27A03700C92206 /* IData.swift in Sources */,
 				0D8FEFB12A2F50F900F14991 /* CharacterView.swift in Sources */,
+				0D790ACE2A8FACE60001B4B9 /* AddImageView.swift in Sources */,
 				0DE099752A27259700C92206 /* little_projectsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +327,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"little-projects/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "little-projects/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +359,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"little-projects/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "little-projects/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
